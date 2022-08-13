@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainConatainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.cardContainer{
+    background-color: blue;
+}
+
+.card2{
+    top: 100px;
+}
+
+.cardImageContainer{
+    /* width: 75rem; */
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+
+.cardImage{
+    width: 100%;
+    object-fit: contain;
+}
+
+.upperText{
+    /* margin-top:100px ; */
+    text-align: center;
+}
+
+.lowerText{
+    /* margin-top: 200px; */
+    text-align: center;
+}
